@@ -1,0 +1,13 @@
+package day06_objeck;
+
+public class CircleBean {
+	int r;
+	final double PI=3.14;
+	public CircleBean(int r) {
+		this.r=r;
+	}
+	
+	public double getArea() {
+		return r*r*PI;
+	}
+}
